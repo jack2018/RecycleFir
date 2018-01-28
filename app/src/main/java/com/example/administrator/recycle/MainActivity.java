@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ArrayList<String> s = new ArrayList<>();
+        ArrayList<String> s = new ArrayList<>();//这个是新的new
         s.add("ww1");
         s.add("ee2");
         s.add("rr3");
